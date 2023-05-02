@@ -1,0 +1,645 @@
+@charset "UTF-8";
+
+header {
+	position: sticky;
+	top: 0px; /* 도달했을때 고정시킬 위치 */
+	padding: 5px;
+	background-color: white;
+	z-index: 10;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* a태그 속성 제거좀 먹어라.. */
+.header-container nav ul li a {
+	text-decoration: none;
+}
+
+.header-container h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+/* 모달창 CSS */
+#loginmodal {
+    display: none;
+    align-items: center;
+    z-index: 1;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#loginmodal .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginmodal .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#loginmodal .close:hover,
+#loginmodal .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.gradestars {
+			max-height: 100%;
+			max-width: 100%;
+		}
+
+       div * {                                        
+       
+/*             border: 2px solid red;      */
+            box-sizing: border-box;
+            
+        }
+
+        .wrap {
+            width:100%;
+            height:7000px;
+            margin:auto;
+            font-family: 'Nanum Myeongjo', serif;
+             /* background-color: #f6f6f2; */
+        }
+
+       
+        #section {height: 100%;}
+/*       #footer {height: 3%; }  */
+     
+
+        /* .product_title {border-top: 3px solid; }  */
+
+
+        #header1{ width: 30%;}
+        #navigator{ width: 50%; }
+        #header2{ width: 20%; }
+        #header>div {
+            float: left;
+            height: 100%;
+        }
+
+        /* #section>div {
+            float: left;
+        } */
+
+
+        #s1 {height: 2%; border-top: 1px solid #ccc;}
+        
+         #s1_1 {height: 40%; background-color: navy;}
+        #s1_2 {height: 60%;  }
+
+        #s2 {height: 16%;}
+
+        
+
+        #s4 {height: 13%;}
+
+        #s5 {height: 13%;}
+
+        #s6 {height: 10%;}
+
+        #s7 {height: 6%;}
+        
+        #s8 {height: 8%;}
+
+
+
+
+
+
+        
+      
+
+        /* a{  
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 900;
+        line-height: 3.5;
+        } */
+
+/*         a:hover { */
+/*         color: darkblue; */
+/*         text-decoration : none; */
+/*         font-size: 13px; */
+/*         } */
+        
+
+        #product {height: 90%;}
+
+        #product-image { width: 60%;}
+        #product-detail-area {width: 40%;}
+        #s2>div {float: left; height: 100%;}
+
+
+        #d1 {
+            height: 5%;
+            border-top: 2px solid #ccc;
+        
+        }
+
+
+
+
+
+        
+
+        hr{
+            border: solid 1px black;
+        }
+
+        #product-l-meaning {height: 4%; font-size: 12px;}
+        #product-detail-area>div { height: 100%; float: left;}
+        
+        #product-detail {width: 80%;}
+        
+        #product-title {height: 5%; }
+        
+        #product-sizeinfo { height: 8%; }
+        
+        #product-caution {height: 19%; font-size: 12px; margin-bottom: 20px;}
+        #product-meaning{ height: 13%; font-size: 12px;}
+        #product-price{height: 5%; border-bottom: 1px solid #ccc; }
+        
+        #product-option{height: 10%; border-bottom: 1px solid #ccc;}
+        .option-count { height: 15%;}
+        #product-benefits{height: 8%; border-bottom: 1px solid #ccc;}
+        
+        #product-total {height: 3%; font-size: 13px; text-align: right; margin: 15px;}
+        #product-button { text-align: right;  }
+        
+        #product-menu {text-align: center; height: 5%; }
+        
+        #product{text-align: center;}
+        
+        #product-review-wrap {height: 91%;}
+        
+        #product-qna-wrap {height: 91%;}
+        
+        #product-image>div {height: 100%; float: left;}
+
+.modal-dialog {
+    overflow-y: initial !important
+}
+
+.modal-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+        #image {height: 80%;}
+        #imageetc {height: 20%;}
+
+        #product-menu > a  {font-size: 10px; margin: 50px; color: black;}
+
+
+
+        #product-price>div{height: 100%; float: left;}
+        #price {width: 35%;}
+        #origin_price{width:55%;  }
+        #sale{width: 10%;}
+
+        #benefits {font-size: 12px;  }
+        #benefits >th,td { padding: 6px;}
+
+        #option {font-size: 11px; width: 100%; height: 100%;}
+         
+       
+
+
+        #d {
+            width: 20%;
+        }
+
+        #d2 {height: 5%;}
+
+        #buy {
+            height: 55px;
+            width: 270px;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            outline: none;
+            margin-left: 5px;
+            background-color: rgb(120, 116, 100);
+            color: #fff;
+        }
+
+        #cart {
+            height: 55px;
+            width: 80px;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            outline: none;
+            margin-left: 5px;
+            background-color: rgb(224, 224, 224);
+            color: black
+        }
+
+        #like {
+            height: 55px;
+            width: 70px;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            outline: none;
+            margin-left: 5px;
+            background-color: rgb(224, 224, 224);
+            color: black;
+            vertical-align: bottom; 
+            transition: all 0.1s linear;
+        }
+        
+      
+		#like:hover  {
+		  transform: scale(1.1);
+		}
+        
+        
+        
+        
+        
+
+        #product-review-wrap>div {height: 100%; float: left; }
+        #d3{width: 10%;}
+        #d4{width: 10%;}
+        #product-review{width: 80%; }
+        
+        #d5{height: 5%;}
+        #review-name {text-align: center; height: 4%;}
+        #grade-wrap{height: 12%; text-align: center;}
+        #review-wrap {height: 76%; }
+        
+        #grade-wrap>div { height: 100%; float: left;}
+        
+        
+        #product-qna-wrap>div{height: 100%; float: left;}
+        #product-qna {width: 80%;}
+        
+        #qna-name{text-align: center; height: 6%;}
+        #qna-content {height: 78%; background-color:  #fbfbf7;}
+        #qna-page{height: 11%; text-align: center;  border-top: 1px solid #ccc;}
+        
+
+        #product-guide-wrap {height: 86%;}
+        #product-guide-wrap>div {height: 100%; float: left;}
+        #guide{width: 80%; padding: 10px; background-color:  #fcfcfb;}
+
+
+        #guide>div{height: 100%; float: left;}
+        #guide1{width: 50%;}
+        #guide2{width: 50%; font-size: 13px; }
+
+        #guide2>div>ul>li {list-style-type: none;}
+
+        #payinfo{height: 40%; font-size: 12px; }
+        #changeinfo {height: 60%; font-size: 12px;}
+
+        #grade {
+            width: 32%;
+            
+        }
+			
+		#grade-left {
+			width: 34%
+		
+		}
+        #grade_graph {
+            width: 33%;
+        }
+
+		#review-filter>div {height: 100%; float: left;}
+        #review-filter {height: 7%;}
+        #review-content{height: 78%; background-color:  #fbfbf7;}
+        #review-page {height: 15%; border-top: 1px solid #ccc;}
+
+        #review-table {
+            width: 100%;
+            font-size: 12px;
+            
+        }
+
+        #gradestyle {
+        height: 70px;
+        
+        }
+        #d6 {
+            width: 5%;
+        }
+        #delivery-info{ width: 95%;}
+        #guide2>div {
+            height: 100%; float: left;
+        }
+
+        #related-product-wrap {height: 100%;}
+        #related-product-name{height: 100%; text-align: center; width: 60%;}
+        #related-product-wrap>div {height: 100%; float: left;}
+        #d7{width: 20%; height: 100%}
+        #d8{width: 20%; height: 100%}
+   
+        .card {
+       padding: 20px;
+       border: none;
+       text-align: center;
+       font-weight: bold;
+       font-size: 10px;
+
+       }
+
+       #related-list {height: 60%;}
+    
+
+       .slick-arrow{
+        background-color: black;
+        font-size: 20px;
+}
+
+    #cate {
+        font-size: 10px;
+        font-weight: bold;
+        
+    }
+
+    /* .slick-prev::before,
+     .slick-next::before {
+     opacity: 0;
+        display: none;
+  } */
+  
+  
+  li {list-style-type: none;
+  font-weight: 600;
+  font-size:12px;
+  color: gray;
+  }
+
+    .sidebar {height: 30%;  }
+    .sidebar>div {height: 100%; float: left; }
+    #fcwrap{height: 100%; width: 60%; border: 1px solid #ccc; }
+    #cart2{ height: 20%;  }
+    #share{height: 20%; }
+    #up{height: 20%;}
+    #down{height: 20%;}
+    #cart22{width: 100%;}
+   
+    #product-image>div {height: 100%; float: left;}
+    /* 있어도 되고 없어도될듯 */
+    .option-area { height: 100%;}
+    
+
+    #opt-count {width: 30%;}
+
+    .selected-table{height: 33%;}
+    .opt-name {width: 60%; font-size: 12px;}
+    .opt-price {width: 20%; font-size: 12px;}
+
+
+    .selected1 { height: 4%;}
+    .selected2 { height: 4%;}
+    .selected3 { height: 4%;}
+
+    #optselect {height: 60%; width: 100%; font-weight: bold;}
+    #optselect2 {height: 60%; width: 100%; }
+    
+
+    #sumb-wrap>div {height: 100%; float: left;}
+      
+
+ 
+    #sumbimg1{width: 25%; margin-right: 15px;}
+
+    .img1 {max-width: 100%; max-height : 100%;
+    }
+
+    .big { max-width: 100%;}
+    #sumbimg2{width: 25%;}
+    #sumbimg3{width: 25%;}
+
+
+    .selected-opt{font-size: 11px; width: 100%; }
+    .opt-table {height: 60px; width: 100%;}
+
+    .quantity {width: 15%;}
+    #quantity {width: 15%; height: 50%; text-align: center; font-size: 12px;}
+
+    .opt-table>div{height: 100%; float: left;}
+    
+    
+    #detailimg {
+    	height: 25%;
+    	max-height : 100%;
+    }
+    
+    .rfilter {
+            padding: 10px;
+            font-weight: bold;
+            background-color:  #fbfbf7;
+        }
+   	thead {
+            
+            font-weight:bold;
+            border-bottom: 1px solid #ccc;
+        
+        }
+        
+        #reviewline {
+
+            border-bottom: 1px solid #ccc;
+        }
+    
+    	 .link {
+        color: #333;
+         font-size: 13px; 
+          font-weight: 900;
+          line-height: 3.5;
+         
+    }
+
+ 	
+ 	 .link:hover {
+        text-decoration : none;
+        font-size: 13px;
+        }
+    
+    	#qnaname>div {height: 100%; float:left;}
+    
+    	.reply {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 10px;
+}
+
+.reply:focus {outline:none;}
+
+.replyenroll>div {
+    height: 100%;
+    float: left;
+}
+
+
+.qnacontent {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 10px;
+    resize: none;
+}
+.qnacontent:focus {outline:none;}
+
+.qna-answer-list>div {
+    height: 100%;
+    float: left;
+}
+
+.qnaenroll>div {
+    height: 100%;
+    float: left;
+}
+
+
+#card-img {
+       box-shadow: 1px 1px 5px #e8e7e7;
+       max-width: 100%;
+       max-height: 100%;
+       }
+       
+       
+       .card-img-top {
+       max-width: 100%;
+       max-height: 100%;
+
+      
+       
+       }
+       
+       	
+#pprice {
+	font-size: 16px;
+}	
+
+
+.spinner-wrapper{
+       background-color: white;
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       z-index: 9999;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       transition: all 1.2s;
+    }  
+
+    
+    .spinner-border {
+       height: 30px;
+        width: 30px;
+        border: 2px solid;
+   
+        border-top: 2px solid white;
+    }
+    
+    
+    .heartimg {
+    max-height: 80%;
+    max-width: 100%;
+    }
+    
+    #product-title>div {
+    height: 100%;
+    float: left;
+    }
+    
+	
+.big {
+       box-shadow: 1px 1px 5px #e8e7e7;
+       max-width: 100%;
+       max-height: 100%;
+       }
+       
+       .img1 {
+        box-shadow: 1px 1px 5px #e8e7e7;
+       max-width: 100%;
+       max-height: 100%;
+       
+       }
+       
+       .detailimg {
+       box-shadow: 1px 1px 5px #e8e7e7;
+       max-width: 50%;
+       max-height: 50%;
+       
+       }
+       
+       
+       #benefits {
+       	height: 100%;
+       }
+	#Lcount {
+		color: #f34141;
+		
+		font-weight: bold;
+	}
+	
+	#replycontent {
+	resize: none;
+	}
