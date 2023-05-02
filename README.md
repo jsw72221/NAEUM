@@ -8,6 +8,29 @@
 
 ---
 
+## ⚒️ Skills
+
+### Language
+
+JAVA
+
+### FrontEnd
+
+HTML / CSS / JavaScript 
+
+### BackEnd
+
+Spring Framework, Mybatis, Ajax
+
+### Oracle
+
+Sql Programming
+
+### Git / SourceTree
+
+
+
+
 ### 🖥 맡은 부분
 
 - 상품 리스트 페이지, 상품 상세 페이지를 맡았습니다.
